@@ -7,9 +7,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-        <!-- not sure we using right vesion -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <jackson.version>2.13.3</jackson.version>
         <skipTests>false</skipTests>
     </properties>
@@ -70,7 +69,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.1</version>
                     <configuration>
-                        <release>16</release>
+                        <release>17</release>
                     </configuration>
                 </plugin>
                 <plugin>
